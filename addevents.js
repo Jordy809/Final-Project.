@@ -115,4 +115,7 @@ input.addEventListener("input", function() {
         this.value = this.value.substring(0, 200);
         showFeedback("Event text limited to 200 characters", "warning");
     }
+
 })
+
+

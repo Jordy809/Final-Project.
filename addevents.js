@@ -16,7 +16,7 @@ form.addEventListener("submit", function(e) {
         showFeedback("Please enter an event", "error");
         return;
     }
-    
+    //making a unique ID
     const eventId = Date.now().toString();
     addEventToList(eventText, eventId);
     saveEvent(eventText, eventId);

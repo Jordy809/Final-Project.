@@ -23,10 +23,11 @@ form.addEventListener("submit", function(e) {
     
     showFeedback("Event added successfully!", "success");
     input.value = "";
+    //to avoid the inconvenience of havving to click on the input to type again.
     input.focus();
 });
 
-// Function → Add event to page with delete button
+// Function → Add event to page with delete button,the display part.
 function addEventToList(text, id) {
     const li = document.createElement("li");
     li.dataset.id = id;

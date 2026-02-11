@@ -72,3 +72,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Update every second (1000 milliseconds)
     setInterval(updateAllCountdowns, 1000);
 });
+

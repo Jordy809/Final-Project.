@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(52, 57, 57);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+#events {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.prog {
+    display: block;
+}
+.T2 {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    gap : 20px;
+    padding: 20px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}

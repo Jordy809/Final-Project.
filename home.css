@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;}
+    
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #111, #3a3a3a);
+    color: white;
+}
+.hero {
+    width: 100%;
+    padding: 60px;
+}
+
+.content {
+    max-width: 750px;
+}
+
+h1 {
+     font-size: 64px; /* Bigger but balanced */
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+h1 span {
+   font-size: 18px;
+    line-height: 1.7;
+}
+
+ 
+p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    opacity: 0.8;}

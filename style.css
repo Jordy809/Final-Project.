@@ -1,0 +1,38 @@
+header {
+  background: #3c3f3d;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: black;
+  color: white;
+}
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

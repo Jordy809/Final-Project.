@@ -62,3 +62,43 @@ li {
     text-decoration: line-through;
     color: #888;
 }
+@media (max-width: 768px) {
+
+    .events-container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+}
+@media (max-width: 480px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .events-container {
+        padding: 15px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    #event-input {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #add-button {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+}

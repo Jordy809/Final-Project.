@@ -25,9 +25,9 @@ The project aims at making an easy approach towards tracking events taking place
 5. Countdown feature to tell how many days and hours remain for the day of the event thus enhancing easy planing.
 
 ### Installation
-git clone https://github.com/username/Final-Project.git
-cd Final-Project
-open index.html in your browser
+1. git clone https://github.com/username/Final-Project.git
+2. cd Final-Project
+3. open index.html in your browser
 
 ### Tests
 1. test: create a place

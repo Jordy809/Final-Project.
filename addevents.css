@@ -11,6 +11,7 @@ body {
 #event-form, #events-list {
     background-color: rgb(109, 105, 105);
 /* Make the form/container stand out */
+
 #event-form, #events-list {
     background-color: white;
     padding: 20px;
@@ -18,7 +19,7 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
 }
-/* Feedback messages */
+
 .feedback {
     padding: 10px;
     margin: 10px 0;
@@ -42,7 +43,7 @@ body {
 .feedback-info { background-color: #2196F3; }
 .feedback-warning { background-color: #ff9800; }
 
-/* Delete buttons */
+
 .delete-btn {
     background-color: #f44336;
     color: white;
@@ -120,7 +121,7 @@ li {
     border-radius: 5px;
 }
 
-/* Completed tasks */
+
 .completed .event-text {
     text-decoration: line-through;
     color: #888;

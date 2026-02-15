@@ -23,9 +23,9 @@ body {
     color: rgb(110, 106, 106);
 }
 
-.feedback-success { background-color: #535554; }
+.feedback-success { background-color: #dadfdc; }
 .feedback-error { background-color: #946966; }
-.feedback-info { background-color: #5c5f61; }
+.feedback-info { background-color: #badaf0; }
 .feedback-warning { background-color: #302f2e; }
 
 

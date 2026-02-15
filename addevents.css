@@ -13,7 +13,7 @@ body {
 /* Make the form/container stand out */
 
 #event-form, #events-list {
-    background-color: white;
+    background-color: rgb(109, 105, 105);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -38,14 +38,14 @@ body {
     color: white;
 }
 
-.feedback-success { background-color: #4CAF50; }
-.feedback-error { background-color: #f44336; }
-.feedback-info { background-color: #2196F3; }
-.feedback-warning { background-color: #ff9800; }
+.feedback-success { background-color: #dadfdc; }
+.feedback-error { background-color: #946966; }
+.feedback-info { background-color: #badaf0; }
+.feedback-warning { background-color: #302f2e; }
 
 
 .delete-btn {
-    background-color: #f44336;
+    background-color: #df574d;
     color: white;
     border: none;
     padding: 5px 10px;

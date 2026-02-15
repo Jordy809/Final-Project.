@@ -73,3 +73,4 @@ document.addEventListener('DOMContentLoaded', function() {
     setInterval(updateAllCountdowns, 1000);
 });
 
+

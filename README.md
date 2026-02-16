@@ -22,6 +22,10 @@ The project aims at making an easy approach towards tracking events taking place
 1. git clone https://github.com/username/Final-Project.git
 2. cd Final-Project
 3. open index.html in your browser
+
+### Live site
+jordy809.github.io/Final-Project./
+
 ### Tests
 1. test: create a place
 2. input: add an event eg. Motivational talk

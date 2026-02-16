@@ -1,12 +1,16 @@
 body {
     background-color: #d3cfcf; /* Light grey */
     background-image: linear-gradient(to bottom, #312828, #535050);
+    background-color: #f5f5f5; /* Light grey */
+    background-image: linear-gradient(to bottom, #e0e0e0, #f5f5f5);
     margin: 0;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
 }
-
+#event-form, #events-list {
+    background-color: rgb(109, 105, 105);
+/* Make the form/container stand out */
 
 #event-form, #events-list {
     background-color: rgb(109, 105, 105);
@@ -21,6 +25,17 @@ body {
     margin: 10px 0;
     border-radius: 5px;
     color: rgb(110, 106, 106);
+}
+
+.feedback-success { background-color: #dadfdc; }
+.feedback-error { background-color: #946966; }
+.feedback-info { background-color: #badaf0; }
+.feedback-warning { background-color: #302f2e; }
+
+
+.delete-btn {
+    background-color: #df574d;
+    color: white;
 }
 
 .feedback-success { background-color: #dadfdc; }
@@ -102,3 +117,13 @@ li {
     }
 
 }
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+
+.completed .event-text {
+    text-decoration: line-through;
+    color: #888;
+}
+

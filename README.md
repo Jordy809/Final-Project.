@@ -24,7 +24,7 @@ The project aims at making an easy approach towards tracking events taking place
 3. open index.html in your browser
 
 ### Live site
-jordy809.github.io/Final-Project./
+https://jordy809.github.io/Final-Project./
 
 ### Tests
 1. test: create a place

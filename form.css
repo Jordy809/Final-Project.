@@ -58,7 +58,25 @@ button:hover {
     display: flex;
     gap: 20px;
 }
+@media (max-width: 768px) {
+    .forms-container{
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+.form-box {
+    width: 90%;
+    flex: 1;
+    max-width: 350px;
+}
+@media (max-width: 360px) {
+    .form-box{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+input, button {
+    font-size: 0.9rem;
+}
 
-
- 
 

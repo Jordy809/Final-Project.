@@ -3,52 +3,207 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
     padding: 20px;
+}
 
-}
-#events {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    margin: 20px;
-}
-.prog {
-    display: block;
-}
-.T2 {
-    display: flex;
-    margin-top: 10px;
-    align-items: center;
-    gap : 20px;
-    padding: 20px;
-}
-h1 {
-    color: white;
-    text-align: center;
-    font-style: oblique;
-    font-family: 'Courier New', Courier, monospace;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #3f3a3a;
-    margin: 20px;
-    padding: 20px;
-}
-#events {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    padding: 20px;
-    gap: 20px;
-}
-.prog {
-    display: block;
-}
-.details {
-    align-items: center;
-}
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-style: oblique;
     color: aliceblue;
+    text-align: center;
 }
 
+/* Base styles (mobile first approach) */
+#events {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.prog {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1); /* Added for better visibility */
+    border-radius: 10px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px; /* Added for aesthetics */
+}
+
+h2, h3 {
+    color: white; /* Added for better contrast */
+    margin: 10px 0;
+}
+
+p {
+    color: #ddd; /* Added for better readability */
+    line-height: 1.6;
+}
+
+.T2 {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    .prog {
+        padding: 10px;
+    }
+    
+    .prog p {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (tablets, 600px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    body {
+        font-size: 15px;
+        padding: 20px;
+        margin: 15px;
+    }
+    
+    #events {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    h1 {
+        font-size: 28px;
+        grid-column: 1 / -1;
+    }
+    
+    .prog {
+        margin-bottom: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    
+    #events {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    h1 {
+        font-size: 32px;
+        grid-column: 1 / -1;
+    }
+    
+    .prog {
+        transition: transform 0.3s ease;
+    }
+    
+    .prog:hover {
+        transform: translateY(-5px);
+    }
+}
+
+/* Extra large devices (large desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px;
+    }
+    
+    #events {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        grid-column: 1 / -1;
+        margin-bottom: 30px;
+    }
+    
+    .prog {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .prog:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    }
+}
+
+/* Landscape orientation for mobile devices */
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    #events {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* High-resolution screens (Retina displays) */
+@media only screen and (min-resolution: 192dpi) and (min-width: 1025px) {
+    body {
+        font-weight: 300;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+        font-size: 12pt;
+        padding: 0.5in;
+        margin: 0;
+    }
+    
+    h1, h2, h3, p {
+        color: black;
+    }
+    
+    .prog {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+        box-shadow: none;
+        background: none;
+    }
+    
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+}

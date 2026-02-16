@@ -58,6 +58,7 @@ button:hover {
     display: flex;
     gap: 20px;
 }
+
 @media (max-width: 768px) {
     .forms-container{
         flex-direction: column;
@@ -78,5 +79,6 @@ button:hover {
 input, button {
     font-size: 0.9rem;
 }
+
 
 
